@@ -8,3 +8,28 @@
   color: white;
   text-align: center;
 }
+
+#calculator {
+  text-align: center;
+  width: 300px;
+}
+
+td {
+    padding: 12px 12px 12px 12px;
+    border: 2px solid white;
+    background-color: #81d8d0;
+}
+
+tr {
+  width: 20px;
+}
+
+table {
+  margin-left: 420px;
+  margin-right: 420px;
+  margin-top: 25px;
+}
+
+#display {
+  height: 35px;
+}
