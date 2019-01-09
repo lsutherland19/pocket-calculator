@@ -11,14 +11,20 @@
 
 #calculator {
   text-align: center;
-  width: 300px;
+  width: 400px;
+  margin: 0 auto;
 }
 
 td {
-    padding: 12px 12px 12px 12px;
     border: 2px solid white;
     background-color: #81d8d0;
     font-weight: bold;
+}
+
+button {
+  height : 122px;
+  width : 100px;
+  background-color: #81d8d0;
 }
 
 tr {
@@ -35,4 +41,6 @@ table {
   height: 55px;
   background-color: black;
   border-color: #81d8d0;
+  color: #81d8d0;
+  font-size: 30px;
 }
