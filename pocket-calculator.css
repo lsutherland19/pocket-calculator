@@ -1,7 +1,7 @@
 * {
-  background-color: black;
   font-family: 'Major Mono Display', monospace;
   font-size: 40px;
+  background-color: black;
 }
 
 #intro {
@@ -16,31 +16,28 @@
 }
 
 td {
-    border: 2px solid white;
     background-color: #81d8d0;
-    font-weight: bold;
 }
 
 button {
-  height : 122px;
-  width : 100px;
+  height: 60px;
+  width: 100px;
   background-color: #81d8d0;
 }
 
 tr {
-  width: 20px;
-}
-
-table {
-  margin-left: 420px;
-  margin-right: 420px;
-  margin-top: 25px;
+  width: 25px;
 }
 
 #display {
-  height: 55px;
+  height: 80px;
   background-color: black;
   border-color: #81d8d0;
   color: #81d8d0;
   font-size: 30px;
+  border: 2px solid #81d8d0;
+}
+
+#button {
+
 }
