@@ -11,33 +11,27 @@
 
 #calculator {
   text-align: center;
-  width: 400px;
   margin: 0 auto;
 }
 
 td {
     background-color: #81d8d0;
+    width: 70px;
 }
 
 button {
   height: 60px;
-  width: 100px;
+  width: 170px;
   background-color: #81d8d0;
 }
 
-tr {
-  width: 25px;
-}
-
 #display {
-  height: 80px;
+  height: 40px;
   background-color: black;
-  border-color: #81d8d0;
-  color: #81d8d0;
   font-size: 30px;
   border: 2px solid #81d8d0;
 }
 
 #button {
-
+  width: 343px;
 }
