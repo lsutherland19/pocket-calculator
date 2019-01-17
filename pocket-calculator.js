@@ -1,44 +1,27 @@
-function screen () {
-  const display = getElementById("screen").value=;
 
+function insert(num){
+ document.calc.display.value = document.calc.display.value + num;
 }
 
-function number () {
-  
+
+function clearCalc(){
+ document.calc.display.value = "";
 }
 
-function clear (){
-
+function equal(){
+ let calcAnswer = document.calc.display.value;
+ if(calcAnswer){
+   document.calc.display.value = eval(calcAnswer);
+ }
+ if(document.calc.display.value === "Infinity") {
+   document.calc.display.value = "ERROR";
+ }
 }
 
-function negation (){
-
+function numberNegation(){
+ document.calc.display.value = document.calc.display.value * -1
 }
 
-function percentage (){
-
-}
-
-function division (){
-
-}
-
-function multiply (){
-
-}
-
-function subtract (){
-
-}
-
-function addition (){
-
-}
-
-function decimal (){
-
-}
-
-function equal (){
-
+function numberPercentage(){
+ document.calc.display.value = document.calc.display.value / 100
 }
