@@ -1,15 +1,10 @@
 * {
-  font-family: 'Major Mono Display', monospace;
-  font-size: 40px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
   background-color: black;
 }
 
-#intro {
-  color: white;
-  text-align: center;
-}
-
-#calculator {
+#css {
   text-align: center;
   margin: 0 auto;
 }
@@ -25,13 +20,17 @@ button {
   background-color: #81d8d0;
 }
 
-#display {
-  height: 40px;
-  background-color: black;
-  font-size: 30px;
-  border: 2px solid #81d8d0;
-}
-
 #button {
   width: 343px;
+}
+
+#yeet {
+  font-size: 3px;
+  color: white;
+}
+
+#title {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
 }
