@@ -7,6 +7,7 @@
 #css {
   text-align: center;
   margin: 0 auto;
+  background-color: #81d8d0;
 }
 
 #bground {
@@ -22,10 +23,12 @@
 button {
   height: 60px;
   width: 170px;
+  background-color: #81d8d0;
 }
 
 #button {
   width: 343px;
+  background-color: #81d8d0;
 }
 
 #yeet {
