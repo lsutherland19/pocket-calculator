@@ -34,3 +34,21 @@ button {
   color: white;
   font-weight: bold;
 }
+
+#operations {
+  color: #FF4136;
+  background-color: #FF4136;
+}
+
+#features {
+  color: #FFDC00;
+  background-color: #FFDC00;
+}
+
+form {
+  width: 100%;
+  padding: 12px 20px;
+  border: 2px solid #81d8d0;
+  background-color: #3CBC8D;
+  color: white;
+}
