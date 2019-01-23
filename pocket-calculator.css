@@ -9,10 +9,16 @@
   margin: 0 auto;
 }
 
-td {
-    background-color: #81d8d0;
-    width: 70px;
+#bground {
+  background-color: #81d8d0;
+  width: 70px;
 }
+
+#baground {
+  background-color: #81d8d0;
+  width: 70px;
+}
+
 
 button {
   height: 60px;
@@ -38,11 +44,13 @@ button {
 .operations {
   color: #FF4136;
   background-color: #FF4136;
+  width: 70px;
 }
 
 .features {
   color: #FFDC00;
   background-color: #FFDC00;
+  width: 70px;
 }
 
 form {
